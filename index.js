@@ -1,11 +1,12 @@
 var katzDeliLine = []; 
 var number = 0 
+
 function takeANumber(katzDeliLine){
- 
   number++
   katzDeliLine.push(number);
   return (`Welcome. You are ${number}.`);
 }
+
 console.log(takeANumber(katzDeliLine))
 console.log(takeANumber(katzDeliLine))
 console.log(takeANumber(katzDeliLine))
