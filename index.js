@@ -1,11 +1,12 @@
 var katzDeliLine = []; 
 
 function takeANumber(katzDeliLine, number){
+  number = 1
   ++number
   katzDeliLine.push(number);
   return (`Welcome. You are ${number}.`);
 }
-takeANumber(katzDeliLine, number);
+takeANumber(katzDeliLine, 37);
 
 function nowServing(katzDeliLine){
   if (katzDeliLine.length === 0){
