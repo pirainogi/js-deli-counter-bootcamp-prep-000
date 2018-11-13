@@ -7,6 +7,8 @@ function takeANumber(katzDeliLine){
   return (`Welcome. You are ${number}.`);
 }
 takeANumber(katzDeliLine);
+takeANumber(katzDeliLine);
+takeANumber(katzDeliLine);
 
 function nowServing(katzDeliLine){
   if (katzDeliLine.length === 0){
