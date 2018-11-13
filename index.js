@@ -6,9 +6,10 @@ function takeANumber(katzDeliLine){
   katzDeliLine.push(number);
   return (`Welcome. You are ${number}.`);
 }
-takeANumber(katzDeliLine);
-takeANumber(katzDeliLine);
-takeANumber(katzDeliLine);
+console.log(takeANumber(katzDeliLine))
+console.log(takeANumber(katzDeliLine))
+console.log(takeANumber(katzDeliLine))
+
 
 function nowServing(katzDeliLine){
   if (katzDeliLine.length === 0){
